@@ -16,9 +16,3 @@ int ft_sumdeg(int n, int k){
     return sum;
 }
 
-
-int main(){
-    int n, k;
-    cin >> n >> k;
-    cout << ft_sumdeg(n, k) << endl;
-}

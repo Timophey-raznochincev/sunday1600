@@ -11,11 +11,3 @@ int ft_is_prime(int nb){
     }
     return 1;
 }
-
-
-int main(){
-    int num;
-    cin >> num;
-    cout << ft_is_prime(num) << endl;
-    return 0;
-}
